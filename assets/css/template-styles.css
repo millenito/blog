@@ -441,6 +441,31 @@ caption {
     margin-top: 0.5rem;
 }
 
+/* Latest Posts */
+.latest-posts {
+    font-size: 0.85rem;
+    border: 1px solid;
+    padding: 1.5rem;
+    margin-top: 3.5rem;
+}
+.latest-post-content {
+}
+.latest-post-content h3 {
+    margin-top: 1rem;
+    margin-bottom: 0.2rem;
+}
+.latest-post-content span {
+    font-size: 0.75rem;
+}
+.latest-post-content a {
+    border: none;
+}
+.min-read {
+    background-color: #111;
+    color: #fefefe;
+    border-radius: 8px;
+    padding: 0.2rem;
+}
 /* Disqus Comments */
 #disqus-container {
   text-align: center;

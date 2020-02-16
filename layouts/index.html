@@ -1,0 +1,30 @@
+{{ define "main" }}
+  <main id="main">
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+  {{ if isset .Site.Params "latestpostcount" }}
+  <div class="latest-posts">
+      <h2 id="toc-heading">Post terbaru</h2>
+      {{ $nbPosts := len (where .Site.RegularPages "Section" "post") }}
+
+      {{ if gt $nbPosts 0 }}
+      <div class="page-heading">{{ i18n "latest_posts" }}</div>
+      <ul class="px-0">
+          {{ range (first .Site.Params.latestpostcount (where .Site.RegularPages "Section" "post")).GroupByDate "Jan, 2006" "desc" }}
+          {{ range sort .Pages "Date" "desc" }}
+          <li class="latest-post-content">
+              <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+              <!-- <span>{{ $.Site.Params.dateFormat | default "Jan 2, 2006" }}</span> -->
+              <span>{{ .Date.Format $.Site.Params.dateFormat }} <span class="min-read">{{ .ReadingTime }} min read</span></span>
+          </li>
+          {{ end }}
+          {{ end }}
+      </ul>
+      {{ if gt $nbPosts .Site.Params.latestpostcount }}
+      <a href="./blog/" class="font-italic mt-4 see-more">{{ i18n "see_more" }}</a>
+      {{ end }}
+      {{ end }}
+  </div>
+  {{ end }}
+  </main>
+{{ end }}

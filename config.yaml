@@ -35,6 +35,7 @@ params:
   twitter:
   instagram: millenito_
   katex: true
+  latestpostcount: 5
 
 menu:
   nav:
