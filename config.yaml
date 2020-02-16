@@ -1,11 +1,12 @@
 baseURL: https://example.com
 languageCode: en-us
 defaultContentLanguage: en
-title: Cupper
+title: Lord Maxie Millenito
 theme: cupper-hugo-theme
 googleAnalytics: UA-123456789-1
 disqusShortname: yourdiscussshortname
-enableGitInfo: true
+enableGitInfo: false
+enableEmoji: true
 
 taxonomies:
   tag: tags
@@ -17,11 +18,14 @@ imaging:
   quality: 99
 
 params:
-  description: An accessibility-friendly Hugo theme, ported from the [original Cupper](https://github.com/ThePacielloGroup/cupper) project.
-  homeMetaContent: An accessibility-friendly Hugo theme, ported from the original Cupper project.
-  footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deployed to [Netlify](https://www.netlify.com/).
+  imageLogo: images/logo.jpeg
+  name: Lord Maxie Millenito
+  # description: "\"*Stay hungry. Stay foolish*\" <br>-<small>Steve Jobs</small>"
+  description: "GNU/Linux & Software Engineering enthusiasts"
+  homeMetaContent: "IT, GNU/Linux, software engineering enthusiasts"
+  footer: Dibuat menggunakan [Hugo](https://gohugo.io/). Tema dari [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deploy ke [Netlify](https://www.netlify.com/).
   # For more date formats see https://gohugo.io/functions/format/
-  dateFormat: Jan 2, 2006
+  dateFormat: 2 Jan, 2006
   codePenUser: someUser
   katex: true
 
