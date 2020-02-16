@@ -440,6 +440,9 @@ caption {
     margin-left: 0.75rem;
     margin-top: 0.5rem;
 }
+.toc-content {
+    margin-top: 0.85rem;
+}
 
 /* Latest Posts */
 .latest-posts {
