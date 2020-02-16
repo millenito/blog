@@ -27,6 +27,13 @@ params:
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: 2 Jan, 2006
   codePenUser: someUser
+  github: millenito
+  gitlab: millenito
+  email: wownito31@gmail.com
+  linkedin:
+  telegram:
+  twitter:
+  instagram: millenito_
   katex: true
 
 menu:
