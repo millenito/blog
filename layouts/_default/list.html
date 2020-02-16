@@ -12,6 +12,7 @@
             {{ .Title }}
           </a>
         </h2>
+        <div>{{ .Date.Format $.Site.Params.dateFormat }} <span class="min-read">{{ .ReadingTime }} min read</span></div>
       </li>        
     {{ end }}
     </ul>
