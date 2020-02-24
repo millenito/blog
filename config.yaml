@@ -23,7 +23,7 @@ params:
   # description: "\"*Stay hungry. Stay foolish*\" <br>-<small>Steve Jobs</small>"
   description: "GNU/Linux & Software Engineering enthusiasts"
   homeMetaContent: "IT, GNU/Linux, software engineering enthusiasts"
-  footer: Dibuat menggunakan [Hugo](https://gohugo.io/). Tema dari [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme). Deploy ke [Netlify](https://www.netlify.com/).
+  footer: Dibuat menggunakan [Hugo](https://gohugo.io/). Tema dari [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme)
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: 2 Jan, 2006
   codePenUser: someUser
