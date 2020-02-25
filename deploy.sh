@@ -8,7 +8,8 @@ fi
 
 hugo
 cd public
+pwd
 
-git add -A
+git add .
 git commit -m "Date $(date) : Rebuild site"
 git push --force origin HEAD:master
