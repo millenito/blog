@@ -1,16 +1,14 @@
 dist: bionic
 sudo: true
-git:
-  submodules: false
-  before_install:
-    - sed -i 's/git@github.com:/https:\/\/github.com\//' .gitmodules
-    - git submodule update --init --recursive
 install:
   - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.65.3/hugo_extended_0.65.3_Linux-64bit.deb
   - sudo dpkg -i hugo_extended_0.65.3_Linux-64bit.deb
 script:
-  - hugo
-  - cd public
+  - mkdir -p ../public
+  - git clone https://github.com/millenito/millenito.github.io.git ../public
+  - hugo -d ../public
+  - pwd
+  - cd ../public
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git add -A
