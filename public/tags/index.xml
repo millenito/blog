@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lord Maxie Millenito</title>
+    <link>https://millenito.github.io/tags/</link>
+    <description>Recent content in Tags on Lord Maxie Millenito</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2020 17:34:52 +0700</lastBuildDate>
+    
+	<atom:link href="https://millenito.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>linux</title>
+      <link>https://millenito.github.io/tags/linux/</link>
+      <pubDate>Sun, 09 Feb 2020 17:34:52 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips&amp;tricks</title>
+      <link>https://millenito.github.io/tags/tipstricks/</link>
+      <pubDate>Sun, 09 Feb 2020 17:34:52 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/tags/tipstricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://millenito.github.io/tags/programming/</link>
+      <pubDate>Sun, 09 Feb 2020 00:50:19 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/tags/programming/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shell-script</title>
+      <link>https://millenito.github.io/tags/shell-script/</link>
+      <pubDate>Sun, 09 Feb 2020 00:50:19 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/tags/shell-script/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tutorial</title>
+      <link>https://millenito.github.io/tags/tutorial/</link>
+      <pubDate>Sun, 09 Feb 2020 00:50:19 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

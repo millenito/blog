@@ -2,19 +2,13 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-cd public
-
-if [ -n "$GITHUB_AUTH_SECRET" ]
-then
-    touch ~/.git-credentials
-    chmod 0600 ~/.git-credentials
-    echo $GITHUB_AUTH_SECRET > ~/.git-credentials
-
-    git config credential.helper store
-    git config user.email "millenito-blog-bot@users.noreply.github.com"
-    git config user.name "millenito-blog-bot"
+if ! [ -d public ]; then
+    git submodule add git@github.com:millenito/millenito.github.io.git public
 fi
 
-git add .
-git commit -m "Travis: Rebuild site"
+hugo
+cd public
+
+git add -A
+git commit -m "Date $(date) : Rebuild site"
 git push --force origin HEAD:master

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell-script on Lord Maxie Millenito</title>
+    <link>https://millenito.github.io/tags/shell-script/</link>
+    <description>Recent content in shell-script on Lord Maxie Millenito</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 09 Feb 2020 00:50:19 +0700</lastBuildDate>
+    
+	<atom:link href="https://millenito.github.io/tags/shell-script/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mengenal Shell Script: Variable</title>
+      <link>https://millenito.github.io/mengenal-shell-script-variable/</link>
+      <pubDate>Sun, 09 Feb 2020 00:50:19 +0700</pubDate>
+      
+      <guid>https://millenito.github.io/mengenal-shell-script-variable/</guid>
+      <description>Prakata Dahulu saya sering sekali menghindari belajar shell script, karena menurut saya akan lebih cepat jika hal-hal yang saya kerjakan dikerjakan secara manual daripada harus mempelajari bahasa baru terlebih dahulu, seringkali saya mencari script buatan orang dari internet untuk menyelesaikan masalah sederhana. Hingga akhirnya saya memutuskan untuk mempelajari dasar shell script untuk membuat script-script sederhana yang dapat membantu mempermudah pekerjaan dan keperluan saya sehari-hari.
+Pengenalan Shell Scripting Shell script adalah bahasa yang digunakan oleh shell pada sistem operasi berbasis UNIX atau UNIX-like seperti linux, bsd, dan semacamnya untuk melakukan berbagai rangkaian perintah, seperti untuk keperluan automatisasi pekerjaan yang berulang atau pembuatan program atau perintah baru</description>
+    </item>
+    
+  </channel>
+</rss>
