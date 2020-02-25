@@ -5,7 +5,7 @@ install:
   - sudo dpkg -i hugo_extended_0.65.3_Linux-64bit.deb
 script:
   - mkdir -p ../public
-  - git clone https://github.com/millenito/millenito.github.io.git ../public
+  - git clone git@github.com:millenito/millenito.github.io.git ../public
   - pwd
   - hugo -d ../public
   - cd ../public
