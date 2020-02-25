@@ -13,7 +13,7 @@ script:
   - git config user.email "millenito-blog-bot@users.noreply.github.com"
   - git config user.name "millenito-blog-bot"
   - git add .
-  - git commit -m "Travis: Rebuild site"
+  - git commit --message "Travis: Rebuild site"
   - git push --force origin HEAD:master
 
 deploy:
