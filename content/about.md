@@ -27,7 +27,7 @@ Berikut adalah beberapa bahasa pemograman dan teknologi yang saya suka bekerja d
 - Java
 
 ### Tools / OS
+- Linux (CentOS, Debian, Manjaro)
 - Git
 - Docker
 - Vagrant
-- Linux (CentOS, Debian, Manjaro)
