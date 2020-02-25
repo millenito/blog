@@ -7,8 +7,10 @@ script:
   - mkdir -p ../public
   - git clone https://github.com/millenito/millenito.github.io.git ../public
   - hugo -d ../public
-  - pwd
   - cd ../public
+  - pwd
+  - ls
+  - git status
   - git config --global user.email "travis@travis-ci.org"
   - git config --global user.name "Travis CI"
   - git add -A
