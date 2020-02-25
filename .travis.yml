@@ -5,6 +5,12 @@ install:
   - sudo dpkg -i hugo_extended_0.65.3_Linux-64bit.deb
 script:
   - hugo
+  - cd public
+  - git config --global user.email "travis@travis-ci.org"
+  - git config --global user.name "Travis CI"
+  - git add -A
+  - git commit -m "Travis build: $TRAVIS_BUILD_NUMBER"
+  - git push origin master
 
 deploy:
   provider: pages
