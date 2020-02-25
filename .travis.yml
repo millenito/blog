@@ -6,6 +6,7 @@ install:
 script:
   - mkdir -p ../public
   - git clone https://github.com/millenito/millenito.github.io.git ../public
+  - pwd
   - hugo -d ../public
   - cd ../public
   - pwd
